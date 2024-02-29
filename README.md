@@ -27,7 +27,7 @@ Semantic segmentation is a computer vision task that involves classifying each p
 - `exploratory_data_analysys.ipynb`: This notebook focuses on the exploratory data analysis (EDA) aspect of a semantic segmentation task using the U-Net architecture.
 - `train.py`: Python script for training the UNet model.
 - `inference.py`: Python script for performing inference with the trained model.
-- `pytorch-eda-unet-from-scratch-finetuning.ipynb`: Сombined files mentioned above in one Jupyter notebook. `You can use this notebook for testing my solution too (run on Kaggle platform)`.
+- `pytorch-eda-unet-from-scratch-finetuning.ipynb`: Сombined files mentioned above in one Jupyter notebook. It contains the same code, just in one notebook. `You can use this notebook for testing my solution too (run on Kaggle platform)`.
 - `submission.csv`: CSV file containing the inference results for submission.
 
 
@@ -42,7 +42,7 @@ pip install -r requirements
 
 ## Results
 
-Check the `submission.csv` file for the model's inference results. The result we got from `semantic-segmentation-unet-advanced-approach.ipynb` notebook, is the main solution for the task.
+Check the `submission.csv` file for the model's inference results. The result we got from `submission.py` notebook, is the main solution for the task.
 
 ![image](https://github.com/geeeeenccc/WinstarsAI_task/assets/101811004/395742c0-4cc9-4488-9d83-fbd45e731609)
 
