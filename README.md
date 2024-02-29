@@ -16,22 +16,27 @@ Semantic segmentation is a computer vision task that involves classifying each p
 
 ## Files
 
-- `semantic-segmentation-with-unet-eda.ipynb`: This notebook focuses on the exploratory data analysis (EDA) aspect of a semantic segmentation task using the U-Net architecture. 
-- `semantic_segmentation_with_unet_modeling(baseline).ipynb`: This notebook is dedicated to modeling a U-Net architecture for semantic segmentation, serving as a baseline model. 
-- `semantic-segmentation-unet-advanced-approach.ipynb`: Notebook, which was created to implement a bit better approach in building and training a UNet-based model for semantic segmentation. Most of code featured both in `train.py` and `inference.py` was taken from this notebook.
-
-- `train.py`: Python script for training the UNet model. Most of the code was taken from `semantic-segmentation-unet-advanced-approach.ipynb`, as this notebook is the main solution for the task.
-- `inference.py`: Python script for performing inference with the trained model.  Most of the code was taken from `semantic-segmentation-unet-advanced-approach.ipynb`, as this notebook is the main solution for the task.
-- `semantic_segmentation_with_unet_modeling(baseline).ipynb`: Jupyter notebook containing the model architecture and training pipeline.
+- `data_augmentation.py`: This file defines an image augmentation module for data preprocessing.
+- `data_processing`: First overview of the data.
+- `dataset.py`: This file defines an AirbusDataset class, which serves as a PyTorch dataset for handling ship detection data.
+- `losses.py`: This file implements several loss functions for image segmentation task.
+- `metrics.py`: This file defines a set of functions and a class for computing evaluation metrics.
+- `models.py`: This file defines two convolutional neural network (CNN) architectures. The architectures are named "Improved U-Net (IUNet)" and "Original U-Net".
+- `submission.py`: Create 'submission.csv' file.
+- `utils.py`: This file contains utility functions and configurations essential for ship detection in satellite images.
+- `exploratory_data_analysys.ipynb`: This notebook focuses on the exploratory data analysis (EDA) aspect of a semantic segmentation task using the U-Net architecture.
+- `train.py`: Python script for training the UNet model.
+- `inference.py`: Python script for performing inference with the trained model.
+- `pytorch-eda-unet-from-scratch-finetuning.ipynb`: Сombined files mentioned above in one Jupyter notebook. `You can use this notebook for testing my solution too (run on Kaggle platform)`.
 - `submission.csv`: CSV file containing the inference results for submission.
 
 
 ## Requirements
 
-Make sure to install the necessary dependencies before running the code. You can use the provided `requirements.txt` file:
+Make sure to install the necessary dependencies before running the code. You can use the provided `requirements` file:
 
 ```
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 
