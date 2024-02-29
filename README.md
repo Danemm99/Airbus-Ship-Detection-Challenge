@@ -44,9 +44,7 @@ pip install -r requirements
 
 Check the `submission.csv` file for the model's inference results. The result we got from `submission.py` notebook, is the main solution for the task.
 
-![image](https://github.com/geeeeenccc/WinstarsAI_task/assets/101811004/395742c0-4cc9-4488-9d83-fbd45e731609)
-
-
+![1](https://github.com/Danemm99/Airbus-Ship-Detection-Challenge/assets/112890351/a97d0704-126a-49cf-8896-f5a63c5cf57c)
 
 
 ## Acknowledgments
