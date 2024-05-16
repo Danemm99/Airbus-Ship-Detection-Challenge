@@ -44,7 +44,7 @@ Semantic segmentation is a computer vision task that involves classifying each p
    - Defines a set of functions and a class for computing evaluation metrics, aiding in assessing the model's performance and effectiveness.
 
 7. **Utilities and Miscellaneous**:
-   - Contains utility functions and configurations essential for ship detection in satellite images, serving as a repository for commonly used functionalities and settings.
+   - Contains utility functions and configurations essential for ship detection in satellite images.
   
 - `submission.csv`: CSV file containing the inference results for submission.
 
