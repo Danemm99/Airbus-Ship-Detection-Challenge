@@ -60,6 +60,6 @@ pip install -r requirements
 
 ## Results
 
-Check the `submission.csv` file for the model's inference results. The result we got from `submission.py` notebook, is the main solution for the task.
+Check the `submission.csv` file for the model's inference results. The result we got from `pytorch-eda-unet-from-scratch-finetuning.ipynb` notebook, is the main solution for the task.
 
 ![1](https://github.com/Danemm99/Airbus-Ship-Detection-Challenge/assets/112890351/a97d0704-126a-49cf-8896-f5a63c5cf57c)
