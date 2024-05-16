@@ -16,7 +16,7 @@ Semantic segmentation is a computer vision task that involves classifying each p
 
 ## Task
 
-[Here you can read the task](https://www.kaggle.com/competitions/airbus-ship-detection)
+[Airbus Ship Detection Challenge](https://www.kaggle.com/competitions/airbus-ship-detection)
 
 ## Files
 
