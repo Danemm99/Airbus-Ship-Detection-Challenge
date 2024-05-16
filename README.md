@@ -8,7 +8,6 @@ This repository contains the code for training and performing inference using a 
 - [Files](#files)
 - [Requirements](#requirements)
 - [Results](#results)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
