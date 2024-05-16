@@ -5,6 +5,7 @@ This repository contains the code for training and performing inference using a 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Task](#task)
 - [Files](#files)
 - [Requirements](#requirements)
 - [Results](#results)
@@ -12,6 +13,10 @@ This repository contains the code for training and performing inference using a 
 ## Introduction
 
 Semantic segmentation is a computer vision task that involves classifying each pixel in an image into a specific category. In this repository, we use the UNet architecture to perform semantic segmentation for ship detection in aerial images.
+
+## Task
+
+(Here you can read the task)[https://www.kaggle.com/competitions/airbus-ship-detection]
 
 ## Files
 
