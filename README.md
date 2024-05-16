@@ -16,18 +16,32 @@ Semantic segmentation is a computer vision task that involves classifying each p
 
 ## Files
 
-- `data_augmentation.py`: This file defines an image augmentation module for data preprocessing.
-- `data_processing`: First overview of the data.
-- `dataset.py`: This file defines an AirbusDataset class, which serves as a PyTorch dataset for handling ship detection data.
-- `losses.py`: This file implements several loss functions for image segmentation task.
-- `metrics.py`: This file defines a set of functions and a class for computing evaluation metrics.
-- `models.py`: This file defines two convolutional neural network (CNN) architectures. The architectures are named "Improved U-Net (IUNet)" and "Original U-Net".
-- `submission.py`: Create 'submission.csv' file.
-- `utils.py`: This file contains utility functions and configurations essential for ship detection in satellite images.
-- `exploratory_data_analysys.ipynb`: This notebook focuses on the exploratory data analysis (EDA) aspect of a semantic segmentation task using the U-Net architecture.
-- `train.py`: Python script for training the UNet model.
-- `inference.py`: Python script for performing inference with the trained model.
-- `pytorch-eda-unet-from-scratch-finetuning.ipynb`: Сombined files mentioned above in one Jupyter notebook. It contains the same code, just in one notebook. `You can use this notebook for testing my solution too (run on Kaggle platform)`.
+- `pytorch-eda-unet-from-scratch-finetuning.ipynb`:
+
+1. **Data Exploration and Preprocessing**:
+   - This section delves into the exploratory data analysis (EDA) aspect, offering insights into the dataset structure, distribution, and characteristics crucial for understanding the data.
+
+2. **Data Augmentation and Processing**:
+   - Defines techniques for image augmentation, aiding in expanding the dataset and enhancing model generalization.
+   - Provides an initial overview of the data, likely including loading, preprocessing, and possibly normalization steps.
+
+3. **Dataset Handling**:
+   - Introduces the `AirbusDataset` class, designed specifically for managing ship detection data within the PyTorch framework. This class likely includes methods for loading images and labels, as well as any necessary transformations.
+
+4. **Model Architectures**:
+   - Presents two convolutional neural network (CNN) architectures tailored for semantic segmentation tasks: "Improved U-Net (IUNet)" and "Original U-Net." These architectures form the backbone of the segmentation model.
+
+5. **Training and Inference**:
+   - Offers a Python script for training the U-Net model, incorporating functionalities for model initialization, loss computation, optimization, and validation.
+   - Provides a Python script dedicated to performing inference with the trained U-Net model, allowing for predictions on unseen data.
+
+6. **Evaluation Metrics and Loss Functions**:
+   - Implements various loss functions tailored for image segmentation tasks, crucial for training the model effectively.
+   - Defines a set of functions and a class for computing evaluation metrics, aiding in assessing the model's performance and effectiveness.
+
+7. **Utilities and Miscellaneous**:
+   - Contains utility functions and configurations essential for ship detection in satellite images, serving as a repository for commonly used functionalities and settings.
+  
 - `submission.csv`: CSV file containing the inference results for submission.
 
 
